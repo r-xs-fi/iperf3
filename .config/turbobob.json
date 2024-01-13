@@ -1,0 +1,12 @@
+{
+	"for_description_of_this_file_see": "https://github.com/function61/turbobob",
+	"version_major": 1,
+	"project_name": "iPerf3",
+	"meta": {
+		"description": "Container image for iPerf3 - a tool for active measurements of the maximum achievable bandwidth on IP networks.",
+		"website": "https://iperf.fr/"
+	},
+	"docker_images": [
+		{ "image": "ghcr.io/r-xs-fi/iperf3", "platforms": ["linux/amd64", "linux/arm64", "linux/arm/v7", "linux/riscv64"], "tag_latest": true }
+	]
+}

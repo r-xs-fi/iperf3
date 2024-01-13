@@ -1,0 +1,16 @@
+{
+	"usage_examples": [
+		{
+			"title": "Run server",
+			"cmd": "",
+			"example_output": "-----------------------------------------------------------\nServer listening on 5201 (test #1)\n-----------------------------------------------------------",
+			"docker_opts": ["--network=host"]
+		},
+		{
+			"title": "Run client",
+			"cmd": "--client 127.0.0.1",
+			"example_output": "Connecting to host 127.0.0.1, port 5201\n[  5] local 127.0.0.1 port 48436 connected to 127.0.0.1 port 5201\n[ ID] Interval           Transfer     Bitrate         Retr  Cwnd\n[  5]   0.00-1.00   sec  10.2 GBytes  87.7 Gbits/sec    0   1.62 MBytes",
+			"docker_opts": ["--network=host"]
+		}
+	]
+}
