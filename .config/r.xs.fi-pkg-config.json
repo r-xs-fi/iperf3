@@ -1,4 +1,5 @@
 {
+	"supply_chain_descriptor": "alpine-package:iperf3",
 	"usage_examples": [
 		{
 			"title": "Run server",
